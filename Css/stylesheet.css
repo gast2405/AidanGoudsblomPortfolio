@@ -1,7 +1,6 @@
 body {
     background-image: url("background.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat;
 }
 
 ul {
@@ -9,7 +8,7 @@ ul {
   color: White;
   display: block;
   margin: auto;
-  font-family: Raleway, sans-serif;
+  font-family: Raleway, sudo;
 }
 
 
@@ -91,6 +90,17 @@ ul {
   margin: auto;
 }
 
+.round12 {
+  border-radius: 25px;
+  background: #ADB7C2;
+  padding: 20px;
+  min-width: 200px;
+  max-width: 1000px;
+  min-height: 150px;
+  margin: auto;
+}
+
+
 .padding {
   border-radius: 50px;
   padding: 20px;
@@ -116,47 +126,51 @@ ul {
   margin: auto;
 }
 
+.boxything {
+background-color: grey;
+}
+
 .bigblacktext{
   display: block;
   font-size: 2em;
   color: black;
   text-align: center;
-  font-family: Raleway, sans-serif;
+  font-family: Raleway, sudo;
 }
 
 .smallblacktext {
   display: block;
   color: black;
   text-align: center;
-  font-family: Raleway, sans-serif;
+  font-family: Raleway, sudo;
 }
 
 .bigwhitetext {
   display: block;
   color: White;
   text-align: center;
-  font-family: Raleway, sans-serif;
+  font-family: Raleway, sudo;
 }
 
 .smallwhitetext {
   display: block;
   color: White;
   text-align: center;
-  font-family: Raleway, sans-serif;
+  font-family: Raleway, sudo;
 }
 
 .smallwhitetextright {
   display: block;
   color: White;
   text-align: right;
-  font-family: Raleway, sans-serif;
+  font-family: Raleway, sudo;
 }
 
 .smallwhitetextleft {
   display: block;
   color: White;
   text-align: left;
-  font-family: Raleway, sans-serif;
+  font-family: Raleway, sudo;
   padding-left: 10px;
 }
 
@@ -164,7 +178,7 @@ ul {
   color: White;
   padding-left: 10px;
   list-style-type: none;
-  font-family: Raleway, sans-serif;
+  font-family: Raleway, sudo;
 }
 
 .bannerimage {
@@ -200,6 +214,8 @@ ul {
     letter-spacing: 4px;
 }
 
+
+
 .navbar-brand>img {
   height: 100%;
   padding: 15px; /* firefox bug fix */
@@ -211,13 +227,13 @@ ul {
 
 .navbar-header h1 {
     letter-spacing: 1px;
+    font-family: Raleway, sudo;
     color: black !important;
-    font-family: 'Lobster Two', cursive;
 }
 
 .navbar li a, .navbar {
     color: black !important;
-    font-size: 12px;
+    font-size: 42px;
     transition: all 0.6s 0s;
 }
 
@@ -270,6 +286,7 @@ ul {
 	width:100%;
 }
 
+
 .ccform-addon{
 	color:#f8ae45;
 	float:left;
@@ -286,12 +303,12 @@ ul {
 	padding:15.5px;
 	width:91.9%;
 	display:block;
-	font-family: 'Lato',Arial,sans-serif;
+	font-family: 'Lato',Arial,sudo;
 	font-size:14px;
 }
 
 .ccformfield {
-	font-family: 'Lato',Arial,sans-serif;
+	font-family: 'Lato',Arial,sudo;
 }
 .ccbtn{
 	display:block;
