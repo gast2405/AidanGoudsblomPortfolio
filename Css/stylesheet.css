@@ -1,26 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+
+
 body {
-    background-image: url("background.jpeg");
+    background: #3A0B53 url("vaporwave-backgournd.gif");
     background-repeat: repeat;
 	font-family: "Cousine";
+	background-size: cover;
+	background-attachment: fixed;
+	
 	
 }
+
+
+
+body::-webkit-scrollbar {
+	display: none;
+}
+
 
 ul {
   list-style-type: none;
   color: White;
   display: block;
   margin: auto;
-  
+  text-shadow: 2px 2px 0px #000000;
 }
 
 
 
 
 .profileimg {
-  min-height: 500px
-  min-width: 500px
+  min-height: 500px;
+  min-width: 500px;
   display: block;
   margin-left: 20px;
   margin-right: 20px;
@@ -52,7 +64,7 @@ ul {
 
 .contactimage{
     max-width: 400px;
-    max-height: 400px
+    max-height: 400px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -96,7 +108,7 @@ ul {
 
 .round12 {
   border-radius: 25px;
-  background: #ADB7C2;
+  background: rgba(34,4,66,0.80);
   padding: 20px;
   min-width: 200px;
   max-width: 1000px;
@@ -104,6 +116,8 @@ ul {
   margin: auto;
   flex-direction: column;
   display: flex;
+  color: #a62795;
+  text-shadow: 2px 2px 0px #000000;
 }
 
 
@@ -122,7 +136,7 @@ ul {
 }
 
 .container1200px{
-  max-width: 1200px
+  max-width: 1200px;
 }
 
 .box {
@@ -136,17 +150,17 @@ ul {
 background-color: grey;
 }
 
-.bigblacktext{
+.bigtext{
   display: block;
   font-size: 2em;
-  color: black;
+  
   text-align: center;
   
 }
 
-.smallblacktext {
+.smalltext {
   display: block;
-  color: black;
+  
   text-align: center;
   
 }
@@ -202,6 +216,11 @@ background-color: grey;
   height: 200px;
 }
 
+.spacing150px {
+  height: 150px;
+}
+
+
 .spacing100px {
   height: 100px;
 }
@@ -218,6 +237,7 @@ background-color: grey;
     border: 0;
     z-index: 9999;
     letter-spacing: 4px;
+	text-shadow: 2px 2px 0px #000000;
 }
 
 
@@ -228,25 +248,34 @@ background-color: grey;
   width: auto;
 }
 .navbar .nav > li > a {
-  line-height: 50px;
+  
+
+}
+
+.navbar:hover .nav:hover > li > a {
+  
 }
 
 a {
 	display: inline;
+	
 }
 
 .navbar-header h1 {
     letter-spacing: 1px;
-    font-style: italic;
+    
 	
-    color: black !important;
+    color: #A62795 !important;
 }
 
+
+
 .navbar li a, .navbar {
-    color: black !important;
+    color: #A62795 !important;
     font-size: 42px;
     transition: all 0.6s 0s;
 	font-weight: 700;
+	
 }
 
 .navbar-toggle {
@@ -255,10 +284,9 @@ a {
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: red !important;
+    color: #220442 !important;
+	
 }
-
-
 
 
 
@@ -372,15 +400,19 @@ h5 {
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   padding: 12px 16px;
   z-index: 1;
+  
 }
 
 .dropdown2:hover .dropdown-content2 {
   display: block;
+  background-color: rgba(34,4,66,0.65);
+  
 }
 
 .video-container {
       position: relative;
       overflow: hidden;
+	  
     }
 
     /* Style for the custom thumbnail */
@@ -388,6 +420,7 @@ h5 {
       width: 100%;
       height: auto;
       cursor: pointer;
+	  
     }
 
     /* Style for the YouTube iframe */
@@ -402,3 +435,24 @@ h5 {
 #wide {
 	width: 350px;
 }
+
+
+.headerbackground {
+	background-color: rgba(56,10,73,0.35);
+	height: 115px;
+	
+}
+.headerbackground:hover {
+	background-color: #3A0B53;
+	height: 125px;
+}
+
+
+
+
+#selected {
+	background-color: rgba(34,4,66,0.50);
+	border-radius: 25px;
+}
+
+
