@@ -456,3 +456,14 @@ h5 {
 }
 
 
+
+.profile-container {
+	background-color: rgba(166,39,149,0.45);
+	margin: auto auto;
+	padding: 10px;
+	border-radius: 25px;
+}
+
+#profile-pic {
+	border-radius: 25px;
+}
